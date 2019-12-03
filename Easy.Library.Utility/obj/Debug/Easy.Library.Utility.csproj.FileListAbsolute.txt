@@ -1,0 +1,8 @@
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Debug\Easy.Library.Utility.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Debug\Easy.Library.Utility.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Debug\log4net.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Debug\Newtonsoft.Json.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Debug\log4net.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Debug\Newtonsoft.Json.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\obj\Debug\Easy.Library.Utility.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\obj\Debug\Easy.Library.Utility.pdb

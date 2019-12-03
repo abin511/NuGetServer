@@ -1,0 +1,14 @@
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\Cache.config
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\Easy.Library.Cache.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\Easy.Library.Cache.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Common.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Interfaces.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Redis.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Text.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Common.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Interfaces.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Redis.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\bin\Debug\ServiceStack.Text.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\obj\Debug\Easy.Library.Cache.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\obj\Debug\Easy.Library.Cache.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Cache\obj\Debug\Easy.Library.Cache.csprojResolveAssemblyReference.cache

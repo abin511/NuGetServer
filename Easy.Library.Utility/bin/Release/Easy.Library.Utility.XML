@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Easy.Library.Utility</name>
+    </assembly>
+    <members>
+        <member name="T:Easy.Library.Utility.ConvertHelper`1">
+            <summary>    
+            实体转换辅助类 
+            </summary>    
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Easy.Library.Utility.ConvertHelper`1.ToDataTable``1(System.Collections.Generic.IEnumerable{``0})" -->
+        <!-- Badly formed XML comment ignored for member "M:Easy.Library.Utility.ConvertHelper`1.ConvertToModel(System.Data.DataTable)" -->
+        <member name="T:Easy.Library.Utility.EncryptRsa">
+            <summary>
+            description：RSA 加密解密操作类（非对称加密）
+            </summary>
+        </member>
+        <member name="F:Easy.Library.Utility.EncryptRsa.DefaultEncoding">
+            <summary>
+            默认编码
+            </summary>
+        </member>
+        <member name="F:Easy.Library.Utility.EncryptRsa.CspPara">
+            <summary>
+            密钥管理容器
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptRsa.CreateKeyToXml">
+            <summary>
+            生成密钥
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptRsa.GetPublicKey">
+            <summary>
+            获取公钥
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptRsa.EncryptData(System.String,System.String)">
+            <summary>
+            使用公钥加密
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptRsa.DecryptData(System.String,System.String)">
+            <summary>
+             使用私钥解密
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptRsa.CspParareMove">
+            <summary>
+            密钥管理容器删除
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptRsa.Sign(System.Byte[],System.String)">
+            <summary>
+            签名操作
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptRsa.Verify(System.Byte[],System.Byte[],System.String)">
+            <summary>
+            验签操作
+            </summary>
+        </member>
+        <member name="T:Easy.Library.Utility.EncryptAes">
+            <summary>
+            description：AES 加密解密操作类(对称加密)
+            </summary>
+        </member>
+        <member name="F:Easy.Library.Utility.EncryptAes.DefaultEncoding">
+            <summary>
+            默认编码
+            </summary>
+        </member>
+        <member name="F:Easy.Library.Utility.EncryptAes.AesKey">
+            <summary>
+            Aes加解密钥必须32位
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptAes.GetAesKey(System.String)">
+            <summary>
+            获取Aes32位密钥
+            </summary>
+            <param name="key">Aes密钥字符串</param>
+            <returns>Aes32位密钥</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptAes.EncryptData(System.String,System.String)">
+            <summary>
+            Aes加密
+            </summary>
+            <param name="plainText">源字符串</param>
+            <param name="key">aes密钥，长度必须32位</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryptAes.DecryptAes(System.String,System.String)">
+            <summary>
+            Aes解密
+            </summary>
+            <param name="cipherText">加密的字符串</param>
+            <param name="key">aes密钥，长度必须32位</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EncryMd5.Encry(System.String)">
+            <summary>
+            MD5加密
+            </summary>
+            <param name="plainText">需要加密的明文</param>
+            <returns>返回32位加密结果</returns>
+        </member>
+        <member name="T:Easy.Library.Utility.EnumExtesion">
+            <summary>
+            description：枚举对象扩展
+            </summary>
+        </member>
+        <member name="T:Easy.Library.Utility.EnumExtesion.SortAttribute">
+            <summary>
+            自定义的一个属性类
+            </summary>
+        </member>
+        <member name="F:Easy.Library.Utility.EnumExtesion.SortAttribute.SortNum">
+            <summary>
+            排序号
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.SortAttribute.#ctor(System.Int32)">
+            <summary>
+            排序构造函数
+            </summary>
+            <param name="sortNum"></param>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.Sort(System.Type,System.Boolean)">
+            <summary>
+            对执行枚举，按照Sort特性重新排序
+            </summary>
+            <param name="enumName">枚举</param>
+            <param name="asc">默认升序</param>
+            <returns>描述内容</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.Exclusive(System.Enum[],System.Enum[])">
+            <summary>
+            排除的枚举项
+            </summary>
+            <param name="values">枚举</param>
+            <param name="exclude">排除的枚举项</param>
+            <returns>描述内容</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.Exclusive(System.Type,System.Enum[])">
+            <summary>
+            排除的枚举项
+            </summary>
+            <param name="enumName">枚举</param>
+            <param name="exclude">排除的枚举项</param>
+            <returns>描述内容</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.Include(System.Enum[],System.Enum[])">
+            <summary>
+            输入包含的枚举项
+            </summary>
+            <param name="values">枚举</param>
+            <param name="exclude">排除的枚举项</param>
+            <returns>描述内容</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.Include(System.Type,System.Enum[])">
+             <summary>
+            输入包含的枚举项
+             </summary>
+             <param name="enumName">枚举</param>
+             <param name="exclude">排除的枚举项</param>
+             <returns>描述内容</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.Description(System.Enum)">
+            <summary>
+            从枚举中获取Description
+            </summary>
+            <param name="value">枚举值</param>
+            <returns>描述内容</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.SortNum(System.Enum)">
+            <summary>
+            从枚举中获取Description
+            </summary>
+            <param name="value">枚举值</param>
+            <returns>描述内容</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.GetDescriptAttr(System.Reflection.FieldInfo)">
+            <summary>
+            获取字段Description
+            </summary>
+            <param name="fieldInfo">FieldInfo</param>
+            <returns>DescriptionAttribute[] </returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.GetEnumName``1(System.String)">
+            <summary>
+            根据Description获取枚举
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <param name="description">枚举描述</param>
+            <returns>枚举</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.ToEnum``1(System.String)">
+            <summary>
+             字符串转换成枚举对象
+            </summary>
+            <typeparam name="T">枚举对象</typeparam>
+            <param name="enumName">字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.ToArrayList(System.Type)">
+            <summary>
+            将枚举转换为ArrayList
+            说明：
+            若不是枚举类型，则返回NULL
+            单元测试-->通过
+            </summary>
+            <param name="type">枚举类型</param>
+            <returns>ArrayList</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.EnumExtesion.ToDictionary(System.Type)">
+            <summary>
+            将枚举转换为Dictionary
+            说明：
+            若不是枚举类型，则返回NULL
+            </summary>
+            <param name="type">枚举类型</param>
+            <returns>ArrayList</returns>
+        </member>
+        <member name="T:Easy.Library.Utility.StringExtension">
+            <summary>
+            description：字符扩展
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.StringExtension.Base64Code(System.String)">
+            <summary>
+            base编码
+            </summary>
+            <param name="str">待编码的字符</param>
+        </member>
+        <member name="M:Easy.Library.Utility.StringExtension.Base64Code(System.String,System.Text.Encoding)">
+            <summary>
+            base编码
+            </summary>
+            <param name="str">待编码的字符</param>
+            <param name="encoding">编码格式</param>
+        </member>
+        <member name="M:Easy.Library.Utility.StringExtension.Base64Decode(System.String)">
+            <summary>  
+            Base64解密  
+            </summary>  
+            <param name="base64Str">待解码的base64字符</param>  
+        </member>
+        <member name="M:Easy.Library.Utility.StringExtension.Base64Decode(System.String,System.Text.Encoding)">
+            <summary>  
+            Base64解密  
+            </summary>  
+            <param name="base64Str">待解码的base64字符</param>
+            <param name="encoding">编码格式</param> 
+        </member>
+        <member name="M:Easy.Library.Utility.StringExtension.GenerateUniqueText(System.String)">
+            <summary>
+            生成特定位数的唯一字符串
+            </summary>
+            <param name="prefix">前缀编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.StringExtension.ToStr(System.Nullable{System.DateTime},System.String)">
+            <summary>
+            时间格式化
+            </summary>
+            <param name="dateTime">时间</param>
+            <param name="format">时间格式</param>
+            <returns></returns>
+        </member>
+        <member name="T:Easy.Library.Utility.JsonExtension">
+            <summary>
+            description：Json对象扩展
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.JsonExtension.ToObjByJson``1(System.String)">
+            <summary>
+            json字符串转换成对象
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.JsonExtension.ToJsonString``1(``0)">
+            <summary>
+            对象转换成json字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.JsonExtension.ToJsonString(System.Object)">
+            <summary>
+            对象转换成json字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Easy.Library.Utility.XmlExtension">
+            <summary>
+            description：XML对象扩展
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.XmlExtension.ToObjByXml``1(System.String)">
+            <summary>
+            XML字符串转换成对象
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.XmlExtension.ToXmlString``1(``0)">
+            <summary>
+            对象转换成XML字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.XmlExtension.ToJsonString(System.Xml.XmlNode)">
+            <summary>
+            对象转换成XML字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Easy.Library.Utility.RegexHelper">
+            <summary>
+            description：字符对象扩展
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.RegexHelper.RemoveNumber(System.String)">
+            <summary>
+            去掉字符串中的数字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.RegexHelper.IsNumber(System.String)">
+            <summary>
+            是否是数字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.RegexHelper.IsMobile(System.String)">
+            <summary>
+            是否是手机号码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.RegexHelper.IsEmail(System.String)">
+            <summary>
+            是否邮箱
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.RegexHelper.RemoveHtml(System.String)">
+            <summary>
+            去掉html标记
+            </summary>
+        </member>
+        <member name="T:Easy.Library.Utility.DictionaryHelper">
+            <summary>
+            description：字典对象扩展
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.DictionaryHelper.TryAdd``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)">
+            <summary>
+            尝试将键和值添加到字典中：如果不存在，才添加；存在，不添加也不抛导常
+            dict.TryAdd(2, "Banana");
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.DictionaryHelper.AddOrReplace``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)">
+            <summary>
+            将键和值添加或替换到字典中：如果不存在，则添加；存在，则替换
+            dict.AddOrReplace(3, "Orange");
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.DictionaryHelper.GetValue``2(System.Collections.Generic.Dictionary{``0,``1},``0,``1)">
+            <summary>
+            获取与指定的键相关联的值，如果没有则返回输入的默认值
+            dict.GetValue(2); 
+            dict.GetValue(2, "abc"); 
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.DictionaryHelper.AddRange``2(System.Collections.Generic.Dictionary{``0,``1},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Boolean)">
+            <summary>
+            向字典中批量添加键值对
+            </summary>
+            <param name="replaceExisted">如果已存在，是否替换</param>
+        </member>
+        <member name="T:Easy.Library.Utility.PinYinHelper">
+            <summary>
+            description：汉字转拼音类
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.PinYinHelper.ToPinYin(System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="chinese">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="M:Easy.Library.Utility.PinYinHelper.FirstSpellCode(System.String)">
+              <summary> 
+              得到一个汉字的拼音第一个字母，如果是一个英文字母则直接返回大写字母 
+              </summary> 
+              <param   name="chinese">单个汉字</param> 
+              <returns>单个大写字母</returns> 
+        </member>
+        <member name="T:Easy.Library.Utility.UtilityExtend">
+            <summary>
+            description：辅助对象扩展
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.StrSubString(System.String,System.Int32,System.Boolean)">
+            <summary>
+            字符串截取
+            </summary>
+            <param name="strSub">原始字符</param>
+            <param name="length">保留长度</param>
+            <param name="byASCIIEncoding">true 英文和汉字都是一个字符 false 一个汉字两个字符，英文一个字符 </param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.ToInt(System.String,System.Nullable{System.Int32})">
+            <summary>
+            把字符转换为int类型，如果转换的字符无效，则返回默认值
+            </summary>
+            <param name="str">需要转换的字符</param>
+            <param name="defaultValue">异常返回的默认数据，如果为null，则返回0</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.ToFloat(System.String,System.Nullable{System.Single})">
+            <summary>
+            把字符转换为float类型，如果转换的字符无效，则返回默认值
+            </summary>
+            <param name="str">需要转换的字符</param>
+            <param name="defaultValue">异常返回的默认数据，如果为null，则返回0</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.ToDouble(System.String,System.Nullable{System.Double})">
+            <summary>
+            把字符转换为float类型，如果转换的字符无效，则返回默认值
+            </summary>
+            <param name="str">需要转换的字符</param>
+            <param name="defaultValue">异常返回的默认数据，如果为null，则返回0</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.ToDecimal(System.String,System.Nullable{System.Decimal})">
+            <summary>
+            把字符转换为decimal类型，如果转换的字符无效，则返回默认值
+            </summary>
+            <param name="str">需要转换的字符</param>
+            <param name="defaultValue">异常返回的默认数据，如果为null，则返回0</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.ToDateTime(System.String,System.Nullable{System.DateTime})">
+            <summary>
+            把字符转换为DateTime类型，如果转换的字符无效，则返回默认值
+            </summary>
+            <param name="str">需要转换的字符</param>
+            <param name="defaultValue">异常返回的默认数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.CutWithN(System.Decimal,System.Int32)">
+            <summary>
+            截断指定位数(不做四舍五入操作)
+            </summary>
+            <param name="value">需要截断的金额</param>
+            <param name="len">保留的位数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.IsNullOrEmpty``1(System.Collections.Generic.List{``0})">
+            <summary>
+            判断List对象中是否有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityExtend.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            判断IEnumerable是否有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Easy.Library.Utility.HttpHelper">
+            <summary>
+            HTTP操作类
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.HttpHelper.Post``1(System.String,System.String)">
+            <summary>
+            HttpPost
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.HttpHelper.PostAsync``1(System.String,System.String)">
+            <summary>
+            HttpPost
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.HttpHelper.Get``1(System.String)">
+            <summary>
+            Get请求数据
+            </summary>
+            <param name="url">请求的URL地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.HttpHelper.GetAsync``1(System.String)">
+            <summary>
+            Get请求数据
+            </summary>
+            <param name="url">请求的URL地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.HttpHelper.HttpPost``1(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            post方法body传值
+            </summary>
+            <param name="url">地址</param>
+            <param name="paramsJson">对象序列化</param>
+            <param name="headers">头部参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:Easy.Library.Utility.LogHelper">
+            <summary>
+            日志帮助类
+            </summary>
+        </member>
+        <member name="T:Easy.Library.Utility.LogTypeEnum">
+            <summary>
+            日志方式
+            </summary>
+        </member>
+        <member name="F:Easy.Library.Utility.LogTypeEnum.Log4Net">
+            <summary>
+            Log4Net
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.Info(System.String)">
+            <summary>
+            关键信息
+            </summary>
+            <param name="strMsg">信息内容</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.InfoFormat(System.String,System.Object[])">
+            <summary>
+            关键信息
+            </summary>
+            <param name="formatStr">信息内容</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.Warn(System.String)">
+            <summary>
+            警告信息
+            </summary>
+            <param name="strMsg">信息内容</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.WarnFormat(System.String,System.Object[])">
+            <summary>
+            关键信息
+            </summary>
+            <param name="formatStr">信息内容</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.Error(System.String,System.Exception)">
+            <summary>
+            一般错误信息 
+            </summary>>
+            <param name="strMsg">错误信息</param>
+            <param name="exception">异常信息</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.ErrorFormat(System.String,System.Object[])">
+            <summary>
+            一般错误信息 
+            </summary>>
+            <param name="formatStr">错误信息</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.Fatal(System.String,System.Exception)">
+            <summary>
+            失败信息
+            </summary>
+            <param name="strMsg">失败信息</param>
+            <param name="exception">异常信息</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.FatalFormat(System.String,System.Object[])">
+            <summary>
+            调试信息
+            </summary>
+            <param name="formatStr">错误信息</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.Debug(System.String)">
+            <summary>
+            调试信息
+            </summary>
+            <param name="strMsg">调试信息</param>
+        </member>
+        <member name="M:Easy.Library.Utility.ILogHelper.DebugFormat(System.String,System.Object[])">
+            <summary>
+            调试信息
+            </summary>
+            <param name="formatStr">错误信息</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="T:Easy.Library.Utility.Log4Net">
+            <summary>
+            日志帮助类
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.GetLogger">
+            <summary>
+            获取记录器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.Info(System.String)">
+            <summary>
+            关键信息
+            </summary>
+            <param name="strMsg">信息内容</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.InfoFormat(System.String,System.Object[])">
+            <summary>
+            关键信息
+            </summary>
+            <param name="formatStr">信息内容</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.Warn(System.String)">
+            <summary>
+            警告信息
+            </summary>
+            <param name="strMsg">信息内容</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.WarnFormat(System.String,System.Object[])">
+            <summary>
+            警告信息
+            </summary>
+            <param name="formatStr">错误信息</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.Error(System.String,System.Exception)">
+            <summary>
+            一般错误信息 
+            </summary>>
+            <param name="strMsg">错误信息</param>
+            <param name="exception">异常信息</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.ErrorFormat(System.String,System.Object[])">
+            <summary>
+            一般错误信息 
+            </summary>>
+            <param name="formatStr">错误信息</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.Fatal(System.String,System.Exception)">
+            <summary>
+            失败信息
+            </summary>
+            <param name="strMsg">失败信息</param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.FatalFormat(System.String,System.Object[])">
+            <summary>
+            调试信息
+            </summary>
+            <param name="formatStr">错误信息</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.Debug(System.String)">
+            <summary>
+            调试信息
+            </summary>
+            <param name="strMsg">调试信息</param>
+        </member>
+        <member name="M:Easy.Library.Utility.Log4Net.DebugFormat(System.String,System.Object[])">
+            <summary>
+            调试信息
+            </summary>
+            <param name="formatStr">错误信息</param>
+            <param name="args">格式化参数</param>
+        </member>
+        <member name="T:Easy.Library.Utility.CurrentHelper">
+            <summary>
+            当前上下文的操作方法
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.CurrentHelper.GetFormsAuthenticationUserData">
+            <summary>
+            获取当前窗体认证下，保存的用户数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.CurrentHelper.GetWebClientIp">
+            <summary>
+            获取web客户端ip
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Easy.Library.Utility.UtilityHelper">
+            <summary>
+            常用方法
+            </summary>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityHelper.GetWebConfigConnectionString(System.String)">
+            <summary>
+            获取connectionStrings节点的值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityHelper.GetWebConfigProviderName(System.String)">
+            <summary>
+            获取connectionStrings节点的驱动对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Easy.Library.Utility.UtilityHelper.GetWebConfigAppSettings(System.String)">
+            <summary>
+            获取appSettings节点的数据
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

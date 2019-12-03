@@ -1,0 +1,9 @@
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Release\log4net.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Release\Easy.Library.Utility.XML
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Release\Easy.Library.Utility.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Release\Easy.Library.Utility.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Release\Newtonsoft.Json.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Release\log4net.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\bin\Release\Newtonsoft.Json.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\obj\Release\Easy.Library.Utility.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Utility\obj\Release\Easy.Library.Utility.pdb

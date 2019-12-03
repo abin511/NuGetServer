@@ -1,0 +1,7 @@
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Mongo\bin\Debug\Easy.Library.Mongo.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Mongo\bin\Debug\Easy.Library.Mongo.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Mongo\bin\Debug\MongoDB.Bson.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Mongo\bin\Debug\MongoDB.Driver.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Mongo\obj\Debug\Easy.Library.Mongo.csprojResolveAssemblyReference.cache
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Mongo\obj\Debug\Easy.Library.Mongo.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Mongo\obj\Debug\Easy.Library.Mongo.pdb

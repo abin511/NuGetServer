@@ -1,0 +1,8 @@
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\bin\Debug\Easy.Library.Document.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\bin\Debug\Easy.Library.Document.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\bin\Debug\Aspose.Cells.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\bin\Debug\Aspose.Words.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\bin\Debug\itextsharp.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\obj\Debug\Easy.Library.Document.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\obj\Debug\Easy.Library.Document.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Document\obj\Debug\Easy.Library.Document.csprojResolveAssemblyReference.cache

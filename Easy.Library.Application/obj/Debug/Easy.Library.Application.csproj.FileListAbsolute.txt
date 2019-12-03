@@ -1,0 +1,13 @@
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Easy.Library.Application.exe.config
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Easy.Library.Application.exe
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Easy.Library.Application.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\obj\Debug\Easy.Library.Application.exe
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\obj\Debug\Easy.Library.Application.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Log4Net.config
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Easy.Library.Utility.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Newtonsoft.Json.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\log4net.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Easy.Library.Utility.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\Newtonsoft.Json.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\bin\Debug\log4net.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.Application\obj\Debug\Easy.Library.Application.csprojResolveAssemblyReference.cache

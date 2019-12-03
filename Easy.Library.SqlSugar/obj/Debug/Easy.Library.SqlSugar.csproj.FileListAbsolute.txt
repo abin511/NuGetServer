@@ -1,0 +1,11 @@
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\Easy.Library.SqlSugar.dll.config
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\Easy.Library.SqlSugar.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\Easy.Library.SqlSugar.pdb
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\MySql.Data.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\Newtonsoft.Json.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\System.Data.SQLite.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\bin\Debug\Newtonsoft.Json.xml
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\obj\Debug\Easy.Library.SqlSugar.csprojResolveAssemblyReference.cache
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\obj\Debug\Easy.Library.SqlSugar.dll
+E:\OneDrive\Program Project\NuGetServer\Easy.Library.SqlSugar\obj\Debug\Easy.Library.SqlSugar.pdb

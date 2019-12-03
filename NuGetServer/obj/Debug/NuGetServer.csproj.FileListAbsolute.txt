@@ -1,0 +1,14 @@
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\NuGetServer.dll.config
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\NuGetServer.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\NuGetServer.pdb
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\Microsoft.Web.Infrastructure.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\Microsoft.Web.XmlTransform.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\Newtonsoft.Json.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\NuGet.Core.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\NuGet.Server.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\RouteMagic.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\WebActivatorEx.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\bin\Newtonsoft.Json.xml
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\obj\Debug\NuGetServer.csprojResolveAssemblyReference.cache
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\obj\Debug\NuGetServer.dll
+E:\OneDrive\Program Project\NuGetServer\NuGetServer\obj\Debug\NuGetServer.pdb
